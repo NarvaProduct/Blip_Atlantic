@@ -2,12 +2,11 @@ General Project Information
 - Two devices, one at each of our homes. Flip the switch on one and the LED on the other responds. It works both ways, over the internet. Each device connects to a local server at its home. The two local servers talk to each other over the internet and pass the signal that tells each device whether to switch its LED.
 
 Project Contributors, Skill Levels, and Assigned Work
-- Tom (Beginner): Hardware + Firmware
+- Tom (Has some basic Arduino experience. Has a skill level equivalent to a Junior in University studying Electrical Engineering. Has some basic IT and Linux Fundamentals): Hardware + Firmware
 Designing an embedded system from scratch instead of using a standard dev board. That means learning the MCU chip itself, designing the circuit that makes it run, and writing everything in bare metal C with no Arduino IDE. The finished device brings together the MCU, an LED, a switch, and a Wi-Fi module that talks to the local server.
 
-- Vlad (Beginner): Server Side + Cross Internet Communication
+-  Vlad (has some basic networking and Linux understanding. Also some super basic server setup knowledge. Very early in his IT Career): Server Side + Cross Internet Communication
 Building the software that handles communication between each device and its local server, and between the two local servers over the internet. Traffic will run over TCP and be encrypted through Tailscale. The goal along the way is to learn Python well enough to write software that talks to real hardware.
-
 Rules
 - Never write, edit, or create code in this repo
 - Never give a complete solution, even if asked.
